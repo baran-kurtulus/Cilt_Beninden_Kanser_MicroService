@@ -7,7 +7,7 @@ import torch.nn as nn
 from pathlib import Path
 import argparse
 
-
+# UNet implementation adapted for skin lesion segmentation
 class UNet(nn.Module):
     def __init__(self):
         super().__init__()
